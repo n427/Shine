@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBBF08682888831B0076911E /* musicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF08672888831B0076911E /* musicViewController.swift */; };
+		BBBF086A288883250076911E /* tipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF0869288883250076911E /* tipsViewController.swift */; };
+		BBBF086C288883C40076911E /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF086B288883C40076911E /* timerViewController.swift */; };
 		BBD10DE328874D2B00DA0836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD10DE228874D2B00DA0836 /* AppDelegate.swift */; };
 		BBD10DE528874D2B00DA0836 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD10DE428874D2B00DA0836 /* SceneDelegate.swift */; };
 		BBD10DE728874D2B00DA0836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD10DE628874D2B00DA0836 /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BBBF08672888831B0076911E /* musicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicViewController.swift; sourceTree = "<group>"; };
+		BBBF0869288883250076911E /* tipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsViewController.swift; sourceTree = "<group>"; };
+		BBBF086B288883C40076911E /* timerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
 		BBD10DDF28874D2B00DA0836 /* Shine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD10DE228874D2B00DA0836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBD10DE428874D2B00DA0836 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				BBD10DE228874D2B00DA0836 /* AppDelegate.swift */,
 				BBD10DE428874D2B00DA0836 /* SceneDelegate.swift */,
 				BBD10DE628874D2B00DA0836 /* ViewController.swift */,
+				BBBF08672888831B0076911E /* musicViewController.swift */,
+				BBBF086B288883C40076911E /* timerViewController.swift */,
+				BBBF0869288883250076911E /* tipsViewController.swift */,
 				BBD10DE828874D2B00DA0836 /* Main.storyboard */,
 				BBD10DEE28874D2D00DA0836 /* Assets.xcassets */,
 				BBD10DF028874D2D00DA0836 /* LaunchScreen.storyboard */,
@@ -262,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBD10DE728874D2B00DA0836 /* ViewController.swift in Sources */,
+				BBBF08682888831B0076911E /* musicViewController.swift in Sources */,
 				BBD10DED28874D2B00DA0836 /* Shine.xcdatamodeld in Sources */,
+				BBBF086C288883C40076911E /* timerViewController.swift in Sources */,
+				BBBF086A288883250076911E /* tipsViewController.swift in Sources */,
 				BBD10DE328874D2B00DA0836 /* AppDelegate.swift in Sources */,
 				BBD10DE528874D2B00DA0836 /* SceneDelegate.swift in Sources */,
 			);

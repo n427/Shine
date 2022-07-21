@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class timerViewController: UIViewController {
     struct studyMins {
@@ -20,6 +21,8 @@ class timerViewController: UIViewController {
     @IBOutlet weak var bsTextField: UITextField!
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var timerLabel2: UILabel!
+    var player: AVAudioPlayer!
+    
     var timer = Timer()
     var mins = 0
     var secs = 0
@@ -44,6 +47,12 @@ class timerViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    func playSound() {
+        let url = Bundle.main.url(forResource: "file_example_MP3", withExtension: "mp3")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
+     }
     
     @IBAction func startTimer(_ sender: Any) {
         timer.invalidate()

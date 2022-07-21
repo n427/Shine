@@ -325,6 +325,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="taylorButton:" destination="BId-1h-XPj" eventType="touchUpInside" id="9Ce-DZ-5sz"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="2DC6034A-DDFE-48E7-ADA0-6536069129D3_4_5005_c" translatesAutoresizingMaskIntoConstraints="NO" id="nkN-o6-diU">
                                 <rect key="frame" x="40" y="410" width="134" height="142"/>
@@ -335,6 +338,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="frankButton:" destination="BId-1h-XPj" eventType="touchUpInside" id="LPB-fj-7LF"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="onedtmh" translatesAutoresizingMaskIntoConstraints="NO" id="D1m-F9-q92">
                                 <rect key="frame" x="233" y="419" width="136" height="133"/>
@@ -345,6 +351,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="oneButton:" destination="BId-1h-XPj" eventType="touchUpInside" id="MnL-Y6-ELw"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="A776AD86-4402-4470-B0B1-A465B715CA79" translatesAutoresizingMaskIntoConstraints="NO" id="pkC-zF-oND">
                                 <rect key="frame" x="40" y="261" width="132" height="141"/>
@@ -355,6 +364,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="conanButton:" destination="BId-1h-XPj" eventType="touchUpInside" id="9HK-un-lNu"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="draketbhnvm" translatesAutoresizingMaskIntoConstraints="NO" id="wno-XH-0vx">
                                 <rect key="frame" x="40" y="572" width="134" height="134"/>
@@ -365,6 +377,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="drakeButton:" destination="BId-1h-XPj" eventType="touchUpInside" id="R2Z-7I-raD"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="orsour" translatesAutoresizingMaskIntoConstraints="NO" id="SSx-NY-JMA">
                                 <rect key="frame" x="229" y="572" width="145" height="134"/>
@@ -375,6 +390,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="oliviaButton:" destination="BId-1h-XPj" eventType="touchUpInside" id="E9Y-Nu-LUH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm4-ps-0hL">
                                 <rect key="frame" x="339" y="753" width="55" height="55"/>
@@ -502,7 +520,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="v72-dx-dYA"/>
+        <segue reference="19H-Ge-f7t"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2DC6034A-DDFE-48E7-ADA0-6536069129D3_4_5005_c" width="316" height="316"/>

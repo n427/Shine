@@ -8,9 +8,11 @@
 import UIKit
 
 class tipsViewController: UIViewController {
+    @IBOutlet weak var fadeInOutLabel: UILabel!
     @IBOutlet weak var helpButton: UIButton!
     
     override func viewDidLoad() {
+        self.fadeInOutLabel.alpha = 0.0
         super.viewDidLoad()
         helpButton.clipsToBounds = true;
         helpButton.layer.cornerRadius = helpButton.layer.frame.size.width/2;
@@ -18,7 +20,11 @@ class tipsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func fadeInOutClicked(_ sender: Any) {
+           UIView.animate(withDuration: 2.0, delay: 0.0, options: .curveEaseIn, animations: {
+               self.fadeInOutLabel.alpha = 1.0
+           }, completion: nil)
+       }
     /*
     // MARK: - Navigation
 

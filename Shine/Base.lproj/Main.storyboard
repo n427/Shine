@@ -596,12 +596,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8i-D1-RDZ">
+                                <rect key="frame" x="300" y="82" width="24" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1YS-mX-CWr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="ljx-kW-qqd"/>
                     <connections>
+                        <outlet property="fadeInOutLabel" destination="xMN-jR-CQV" id="kte-wo-VgX"/>
                         <outlet property="helpButton" destination="eIM-BX-f9v" id="7C2-v8-WlP"/>
                     </connections>
                 </viewController>

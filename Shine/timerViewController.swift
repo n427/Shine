@@ -21,7 +21,8 @@ class timerViewController: UIViewController {
     @IBOutlet weak var bsTextField: UITextField!
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var timerLabel2: UILabel!
-    var player: AVAudioPlayer!
+
+    var audioPlayer: AVAudioPlayer!
     
     var timer = Timer()
     var mins = 0
@@ -44,15 +45,23 @@ class timerViewController: UIViewController {
         super.viewDidLoad()
         helpButton.clipsToBounds = true;
         helpButton.layer.cornerRadius = helpButton.layer.frame.size.width/2;
-
         // Do any additional setup after loading the view.
     }
     
     func playSound() {
-        let url = Bundle.main.url(forResource: "file_example_MP3", withExtension: "mp3")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
-     }
+        guard let url = Bundle.main.url(forResource: "AlarmSound", withExtension: "mp3")
+        else {
+            print("File not found")
+            return
+        }
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: url)
+            audioPlayer.play()
+        } catch {
+            print(error)
+        }
+        
+    }
     
     @IBAction func startTimer(_ sender: Any) {
         timer.invalidate()
@@ -87,10 +96,11 @@ class timerViewController: UIViewController {
             count -= 1
         }
         else {
+            playSound()
             timer.invalidate()
             studyMins.mins += keepMins
         }
-        print(studyMins.mins)
+        print(count)
     }
     
     @IBAction func stopTimer(_ sender: Any) {
@@ -129,6 +139,11 @@ class timerViewController: UIViewController {
             
             timerLabel2.text = minsLabel2 + " : " + secsLabel2
             count2 -= 1
+        }
+        else {
+            playSound()
+            timer.invalidate()
+            timerLabel.text = "00 : 00"
         }
     }
     @IBAction func stopTimer2(_ sender: Any) {

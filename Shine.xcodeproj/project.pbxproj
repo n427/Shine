@@ -20,6 +20,8 @@
 		BBD10DFD28874D2D00DA0836 /* ShineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD10DFC28874D2D00DA0836 /* ShineTests.swift */; };
 		BBD10E0728874D2D00DA0836 /* ShineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD10E0628874D2D00DA0836 /* ShineUITests.swift */; };
 		BBD10E0928874D2D00DA0836 /* ShineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD10E0828874D2D00DA0836 /* ShineUITestsLaunchTests.swift */; };
+		BBD5C04B288A2E7D007C014A /* AlarmSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBD5C04A288A2E7D007C014A /* AlarmSound.mp3 */; };
+		BBD5C04C288A2EB3007C014A /* AlarmSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBD5C04A288A2E7D007C014A /* AlarmSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,7 @@
 		BBD10E0228874D2D00DA0836 /* ShineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD10E0628874D2D00DA0836 /* ShineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineUITests.swift; sourceTree = "<group>"; };
 		BBD10E0828874D2D00DA0836 /* ShineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBD5C04A288A2E7D007C014A /* AlarmSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AlarmSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 				BBBF08672888831B0076911E /* musicViewController.swift */,
 				BBBF086B288883C40076911E /* timerViewController.swift */,
 				BBBF0869288883250076911E /* tipsViewController.swift */,
+				BBD5C04A288A2E7D007C014A /* AlarmSound.mp3 */,
 				BBD10DE828874D2B00DA0836 /* Main.storyboard */,
 				BBD10DEE28874D2D00DA0836 /* Assets.xcassets */,
 				BBD10DF028874D2D00DA0836 /* LaunchScreen.storyboard */,
@@ -243,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD5C04C288A2EB3007C014A /* AlarmSound.mp3 in Resources */,
 				BBD10DF228874D2D00DA0836 /* LaunchScreen.storyboard in Resources */,
 				BBD10DEF28874D2D00DA0836 /* Assets.xcassets in Resources */,
 				BBD10DEA28874D2B00DA0836 /* Main.storyboard in Resources */,
@@ -260,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD5C04B288A2E7D007C014A /* AlarmSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
